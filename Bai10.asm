@@ -1,3 +1,5 @@
+#Sử dụng stack nhập vào một chuỗi, xuất ra chuỗi ngược.
+
 .data
 array: .space 100    # khai báo mảng với 25 phần tử, mỗi phần tử có kích thước 4 byte
 str1: .asciiz "Nhap so luong phan tu mang: "
