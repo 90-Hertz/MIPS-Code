@@ -1,3 +1,4 @@
+#Nhập vào một ký tự hoa, in ra ký tự thường.
 
 .data
 str: .asciiz""
