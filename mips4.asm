@@ -1,3 +1,5 @@
+#Nhập từ bàn phím 2 số nguyên, tính tổng, hiệu, tích, thương của 2 số.
+
 .data
     prompt1:    .asciiz "Nhập số nguyên thứ nhất: "
     prompt2:    .asciiz "Nhập số nguyên thứ hai: "
