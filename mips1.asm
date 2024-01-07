@@ -1,4 +1,4 @@
-Nhập vào 1 chuỗi, xuất lại chuỗi đó ra màn hình.
+#Nhập vào 1 chuỗi, xuất lại chuỗi đó ra màn hình.
 
 .data
 str: .asciiz""
