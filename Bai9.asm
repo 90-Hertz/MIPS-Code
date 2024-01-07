@@ -1,3 +1,5 @@
+#Nhập vào một chuỗi. Tính chiều dài của chuỗi.
+
 #do asciiz kết thúc bằng null nên có thể kiếm tra bằng vòng lặp khi gặp null thì kết thúc
 .data
     string:.asciiz
