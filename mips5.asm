@@ -1,3 +1,5 @@
+#Nhập vào 2 số nguyên, xuất ra số lớn hơn.
+
 .data
     prompt1:    .asciiz "Nhập số nguyên thứ nhất: "
     prompt2:    .asciiz "Nhập số nguyên thứ hai: "
