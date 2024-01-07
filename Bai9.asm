@@ -9,10 +9,10 @@
     li $v0,4
     la $a0,str
     syscall
-#nhap chuoi
+
     li $v0,8
-    la $a0,string#input duoc ghi vao string
-    li $a1,30#so ki tu toi da 
+    la $a0,string
+    li $a1,30
     syscall
 
     li $t1, 0          # khởi tạo biến đếm độ dài chuỗi
@@ -33,6 +33,5 @@ end:
     move $a0, $t1
     syscall
 
-    # kết thúc chương trình
-    li $v0, 10         # chọn syscall 10 để thoát chương trình
+    li $v0, 10        
     syscall
