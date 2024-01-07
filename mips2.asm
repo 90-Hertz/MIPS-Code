@@ -1,4 +1,4 @@
-Nhập vào một ký tự, xuất ra ký tự liền trước và liền sau.
+#Nhập vào một ký tự, xuất ra ký tự liền trước và liền sau.
 
 .data
 str: .asciiz""
