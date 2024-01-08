@@ -1,5 +1,4 @@
-#Sử dụng stack nhập vào một chuỗi, xuất ra chuỗi ngược.
-
+#Nhập vào mảng 1 chiều n số nguyên. Xuất giá trị lớn nhất và nhỏ nhất.
 .data
 array: .space 100    # khai báo mảng với 25 phần tử, mỗi phần tử có kích thước 4 byte
 str1: .asciiz "Nhap so luong phan tu mang: "
@@ -11,16 +10,15 @@ max:.word
 min:.word 
 
 .text
-    # in thông báo nhập mảng
-    li $v0, 4           # hàm in chuỗi
-    la $a0, str1        # địa chỉ của chuỗi cần in
+    li $v0, 4           
+    la $a0, str1     
     syscall
-    # nhập số lượng phần tử mảng 
+
     li $v0,5
     syscall
     #gán giá trị vừa nhập vào $t2
     move $t2,$v0 
-    # nhập giá trị từ bàn phím và lưu vào mảng
+
     li $t0, 0           # khởi tạo biến đếm i = 0
     la $s1, array       # địa chỉ của mảng
 input_loop:
