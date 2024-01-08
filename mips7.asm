@@ -1,3 +1,5 @@
+#Nhập một mảng các số nguyên n phần tử, xuất mảng đó ra màn hình.
+
 .data
 array: .space 100    # khai báo mảng với 25 phần tử, mỗi phần tử có kích thước 4 byte
 str1: .asciiz "Nhap so luong phan tu mang: "
